@@ -1,0 +1,15 @@
+# Site settings
+title: Site Title 
+email: youremail@domain
+description: > # this means to ignore newlines until "baseurl:"
+  This index.html page is a placeholder with the CSS,
+  font and favicon. It's just waiting for you to add 
+  some content! If you need some help hit up the 
+  Skeleton documentation.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.yourdomain" # the base hostname & protocol for your site
+twitter_username: username 
+github_username:  username 
+
+# Build settings
+markdown: kramdown
