@@ -20,6 +20,10 @@
   float:right;
 }
 
+.posts-view {
+  margin-left:33%;
+}
+
 .post-link{
   text-decoration:none;
 }

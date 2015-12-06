@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post 2"
+title:  "Post 2 with a longer name"
 date:   2015-11-20 17:46:23
 categories: jekyll update
 ---

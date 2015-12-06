@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post 1"
+title:  "Post 1 with a name"
 date:   2015-11-19 17:46:23
 categories: jekyll update
 ---

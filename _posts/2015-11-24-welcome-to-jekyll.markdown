@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Post 3"
+title:  "Post 3 with the longest name"
 date:   2015-11-24 17:46:23
 categories: jekyll update
 ---
