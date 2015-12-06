@@ -1,7 +1,41 @@
-.footer {
+.sidebar{
   margin-top:25%;
 }
 
 .content{
-  margin-top:25%;
 }
+
+.home-header{
+  display:inline-block;
+}
+
+.home{
+  text-decoration:none;
+  color:black;
+}
+
+.nav-bar {
+  margin-top:5px;
+  display:inline-block;
+  float:right;
+}
+
+.post-link{
+  text-decoration:none;
+}
+
+.post-list {
+  list-style-type:none;
+}
+
+.footer-list {
+  list-style-type:none;
+}
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
