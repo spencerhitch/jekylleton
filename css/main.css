@@ -1,12 +1,35 @@
 .sidebar{
   margin-top:25%;
+  min-height:1px;
+}
+.fixed_row{
+  top:58px;
+  position:fixed;
+  max-width:inherit;
+}
+
+.header-bar{
+  position:fixed;
+  width:100%;
+  background-color:rgba(255, 255, 255, 0.75);
+  z-index:3;
+}
+
+.body_container{
+  top:58px;
 }
 
 .content{
 }
 
+.sidebar_filler{
+  min-height:1px;
+}
+
+
 .home-header{
   display:inline-block;
+  margin-bottom:0;
 }
 
 .home{
