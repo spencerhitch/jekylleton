@@ -9,19 +9,13 @@
       {% include header.html %}
     </div>
 
-    <div class="container">    
-      <div class="row fixed_row">
-        <div class="four columns sidebar">
-          {% include footer.html %}
-        </div>
-      </div>
-    </div>
-
-
     <div class="container body_container">    
       <div class="row">      
 
-        <div class="four columns sidebar_filler">
+        <div class="four columns sidebar_column">
+          <div class="sidebar">
+            {% include footer.html %}
+          </div>
         </div>
 
         <div class="eight columns content">
