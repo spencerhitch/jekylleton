@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="posts-view">
+
+  <h4>Category2</h4>
+  <ul class="post-list">
+    {% for post in site.categories.category2 %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h4>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h4>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

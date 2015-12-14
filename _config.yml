@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   some content! If you need some help hit up the 
   Skeleton documentation.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.yourdomain" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: username 
 github_username:  username 
 
