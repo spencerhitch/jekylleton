@@ -1,10 +1,13 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Category1 
   url: /category1/
 
 - title: Category2 
   url: /category2/
+
+- title: About
+  url: /about/
+
+- title: All
+  url: /all/

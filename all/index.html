@@ -4,9 +4,9 @@ layout: default
 
 <div class="posts-view">
 
-  <h4>Most recent</h4>
+  <h4>All Posts</h4>
   <ul class="post-list">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
